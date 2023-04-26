@@ -1,0 +1,47 @@
+/* Define font color styles */
+.red {
+    color: red;
+}
+.yellow {
+    color: yellow;
+}
+.black {
+    color: black;
+}
+
+/* Define font family styles */
+.serif {
+    font-family: "Times New Roman", Times, serif;
+}
+.sans-serif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Define styles for positioned divs */
+#div1 {
+    position: absolute;
+    top: 300px;
+    right: 50px;
+    width: 100px;
+    height: auto;
+    background-color: yellow;
+    border: 1px solid black;
+}
+#div2 {
+    position: absolute;
+    top: 300px;
+    right: 200px;
+    width: 100px;
+    height: auto;
+    background-color: blue;
+    border: 2px solid white;
+}
+#div3 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 100px;
+    height: 200px;
+    background-color: green;
+    border: 1px solid black;
+}
